@@ -2,8 +2,12 @@
 # Rough idea
 
 ## TL;DR
-This is a literate programming jekyll site to used to develop new ding
-bat webfonts on github.
+This is a literate programming jekyll site to used to develop fonts on
+github with a special focus on ding bat webfonts.
+
+## Status
+`simple.py` seems to generate a working webfont from a directory of
+glyphs referenced by index.html.  Very crude and naive.
 
 ## Problem
 You have a bunch of symbols deployable as separate images, often used
@@ -22,7 +26,7 @@ run rake/make and compile a new font from a manifest of glyphs
 maintained in ./glyphs.
 
 The ./glyphs directory should contain svg images named 
-  *code*.*shorthand*.glyph.svg
+  *hexcode*.*shorthand*.glyph.svg
 
 Each glyph will be included in the font and mapped to it's
 unicode code to it's shorthand name in a css file.  Immediate
@@ -79,6 +83,11 @@ We can re-use bootstrap's mappings.
   * http://css-tricks.com/html-for-icon-font-usage/
   * http://en.wikipedia.org/wiki/Private_Use_(Unicode)#Private_Use_Areas
   * https://github.com/Keyamoon/IcoMoon--limited-
+  * https://github.com/bernerdschaefer/ttf2eot/blob/master/lib/ttf2eot.rb
+    - Could not get this one to work. LoadErrors
+  * https://github.com/greyfont/ttf2eot
+  * http://www.kirsle.net/wizards/ttf2eot.cgi#restrictions
+  * https://github.com/simi/reot
 
 The python support looks more than sufficient to inspect a config for
 some options (hardcoded), use a directory of glyphs to create a bunch
@@ -94,9 +103,13 @@ glyphs would be nice.
 
 ## Requirements
 
-The excllent jekyll et al, fontforge, python.
+The excllent jekyll et al, fontforge, python, ttf2eot
 
-    sudo apt install fontforge
+    sudo apt-get install python-fontforge
 
-Apparently there's a way to get fontforge to install as a python
-extension.  In the meantime, we'll use fontforge as our interpreter.
+I couldn't find ttf2eot in my distribution channels, so I compiled it
+from greyfront's github repo.
+
+Right now it's easier to develop with fontforge installed as a python
+plugin rather than the other way around, since this allows logging
+what we are doing etc...

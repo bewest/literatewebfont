@@ -12,6 +12,7 @@ font.familyname = "Foo Bar"
 
 
 # import svgs
+files = [ 'glyphs/']
 for i in range(1, 701):
     # create a new glyph with the code point i
     glyph = font.createChar(i)
