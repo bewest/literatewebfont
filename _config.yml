@@ -7,6 +7,7 @@ author:
   github: bewest
 
 #exclude: [ js, css ]
+exclude: [ '*.rb', '*.py' ]
 
 #####
 # EOF
