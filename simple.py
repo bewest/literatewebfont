@@ -68,7 +68,6 @@ class WebFont(object):
     font.fullname = ' '.join([ self.options.familyname, self.options.fontname ])
 
     # import svgs
-    #files = glob.glob('./glyphs/*.glyph.svg')
     files = self.collect_glyphs(theme)
     for f in files:
       self.import_glyph(f)
@@ -82,15 +81,18 @@ class WebFont(object):
     font.printSample('fontdisplay', 14)
 
   def import_glyph(self, pathname):
+    """
+    Import an SVG as a single glyph.
+    """
     name = path.basename(pathname)
-    # print name
     print name
+
     code, short = name.split('.')[:2]
     glyph = int('0x' + code, 16)
     char  = unicode(glyph)
 
     # create a new glyph with the code point i
-    glyph = self.font.createChar(glyph, name)
+    glyph = self.font.createChar(glyph, short)
 
     # import svg file into it
     #glyph.importOutlines("%s.svg" % f)
