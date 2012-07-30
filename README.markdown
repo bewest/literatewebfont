@@ -89,7 +89,7 @@ Here are the glyph specs:
 > Set an horizontal guide at 200px
 http://ospublish.constantvzw.org/tools/import-inkscape-in-fontforge
 
-The resulting fonts are placed in ./fonts
+The resulting fonts are placed in `./fonts`.
 
 It's possible that this could be combined with a fancy js svg editor
 to allow users to edit glyphs in their browser, save changes to their
@@ -172,7 +172,8 @@ If only the last step fails, `mkdir ~/bin` and add
 
 ### MAC OS/X and brew
 I have not tried this:
-   # https://github.com/mxcl/homebrew/issues/4689
-   brew install fontforge
-   brew install ttf2eot
+
+    # https://github.com/mxcl/homebrew/issues/4689
+    brew install fontforge
+    brew install ttf2eot
 
