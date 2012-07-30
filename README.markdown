@@ -5,10 +5,14 @@
 This is a literate programming jekyll site to used to develop fonts on
 github with a special focus on ding bat webfonts.
 
-## Status
+## Usage
+
+### Install
 
     git clone git@github.com:bewest/literatewebfont.git
     cd literatewebfont
+
+### Create a naive webfont
     ./glyphs2webfont.sh glyphs
 
 This will generate a set of css3 webfonts named:
@@ -29,11 +33,28 @@ from images found by globbing for `glyphs/*.glyphs.svg`.
 This will generate a set of css3 webfonts named `foo.woff` in
 `fonts/foo.woff` ...  globbing for `foo/*.glyphs.svg`.
 
+
 The script wraps simple.py which will allow you to customize what
 happens through some options.
 
+### Extract glyphs
+
+    bewest@ripen:~/Documents/git/literatewebfont$ ./glyphs.py -p awesome/ ../Font-Awesome/font/fontawesome-webfont.ttf
+
+This will extract each glyph found in a font to an svg vector in the
+`awesome` directory.
+
+### Rebuild a font
+
+    # will create `awesome.[woff|eot]` et al.
+    ./glyphs2webfont.sh awesome
+
+### Preview your new icons/font
 If you run: `jekyll --site --auto` you can preview your new font by
-visiting http://localhost:4000/.
+visiting http://localhost:4000/.  You may have to edit the html and
+css to remap your glyphs.
+TODO: automate stubs for css and html that can be included from a
+generated template.
 
 
 ## Problem
@@ -134,6 +155,11 @@ glyphs would be nice.
 
 The excllent jekyll et al, fontforge, python, ttf2eot
 
+Right now it's easier to develop with fontforge installed as a python
+plugin rather than the other way around, since this allows logging
+what we are doing etc...
+
+### Ubuntu and friends
     sudo apt-get install python-fontforge
 
 I couldn't find ttf2eot in my distribution channels, so I compiled it
@@ -148,6 +174,9 @@ Download it, do it.  Here:
 If only the last step fails, `mkdir ~/bin` and add
 `export PATH=$PATH:~/bin/` to your profile.
 
-Right now it's easier to develop with fontforge installed as a python
-plugin rather than the other way around, since this allows logging
-what we are doing etc...
+### MAC OS/X and brew
+I have not tried this:
+   # https://github.com/mxcl/homebrew/issues/4689
+   brew install fontforge
+   brew install ttf2eot
+
