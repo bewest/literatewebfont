@@ -1,10 +1,15 @@
+---
+layout: nil
+
+---
+
 @font-face {
     font-family: 'LiterateWeb';
-    src: url('glyphs.eot');
-    src: url('/fonts/glyphs.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/glyphs.woff') format('woff'),
-         url('/fonts/glyphs.ttf') format('truetype'),
-         url('/fonts/glyphs.svg#LiterateWeb') format('svg');
+    src: url('../fonts/glyphs.eot');
+    src: url('../fonts/glyphs.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/glyphs.woff') format('woff'),
+         url('../fonts/glyphs.ttf') format('truetype'),
+         url('../fonts/glyphs.svg#LiterateWeb') format('svg');
     font-weight: normal;
     font-style: normal;
 

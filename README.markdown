@@ -115,6 +115,8 @@ We can re-use bootstrap's mappings.
   * https://github.com/greyfont/ttf2eot
   * http://www.kirsle.net/wizards/ttf2eot.cgi#restrictions
   * https://github.com/simi/reot
+  * Consider testing and then using as a fall back.
+    http://www.kirsle.net/wizards/ttf2eot.cgi#restrictions
 
 The python support looks more than sufficient to inspect a config for
 some options (hardcoded), use a directory of glyphs to create a bunch
