@@ -28,3 +28,4 @@ a [class^="icon-"], a [class*=" icon-"] {
 .icon-twitter-bird:before         { content: "\f081"; }
 .icon-blank:before                { content: "\f000"; }
 .icon-blank-empty:before          { content: "\f001"; }
+.icon-dot:before                  { content: "\f002"; }
