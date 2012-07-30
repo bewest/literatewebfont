@@ -131,8 +131,15 @@ The excllent jekyll et al, fontforge, python, ttf2eot
 
 I couldn't find ttf2eot in my distribution channels, so I compiled it
 from greyfront's github repo.  https://github.com/greyfont/ttf2eot
-Download it, do it.  Type make.  Move `ttf2eot` to your `~/bin`.
-Done.
+Download it, do it.  Here:
+
+    git clone git://github.com/greyfont/ttf2eot.git
+    cd ttf2eot
+    make
+    cp ttf2eot ~/bin
+
+If only the last step fails, `mkdir ~/bin` and add
+`export PATH=$PATH:~/bin/` to your profile.
 
 Right now it's easier to develop with fontforge installed as a python
 plugin rather than the other way around, since this allows logging
