@@ -6,8 +6,21 @@ This is a literate programming jekyll site to used to develop fonts on
 github with a special focus on ding bat webfonts.
 
 ## Status
-`simple.py` seems to generate a working webfont from a directory of
-glyphs referenced by index.html.  Very crude and naive.
+
+    ./glyphs2webfont.sh glyphs
+
+This will generate a set of css3 webfonts named `glyphs.woff` in
+`fonts/glyphs.woff` by importing individual SVG images, 1000px x
+1000px from images found by globbing for `glyphs/*.glyphs.svg`.
+
+    ./glyphs2webfont.sh foo
+
+This will generate a set of css3 webfonts named `foo.woff` in
+`fonts/foo.woff` ...  globbing for `foo/*.glyphs.svg`.
+
+The script wraps simple.py which will allow you to customize what
+happensthrough options.
+
 
 ## Problem
 You have a bunch of symbols deployable as separate images, often used
@@ -26,7 +39,7 @@ run rake/make and compile a new font from a manifest of glyphs
 maintained in ./glyphs.
 
 The ./glyphs directory should contain svg images named 
-  *hexcode*.*shorthand*.glyph.svg
+  **hexcode**.**shorthand**.glyph.svg
 
 Each glyph will be included in the font and mapped to it's
 unicode code to it's shorthand name in a css file.  Immediate
@@ -108,7 +121,9 @@ The excllent jekyll et al, fontforge, python, ttf2eot
     sudo apt-get install python-fontforge
 
 I couldn't find ttf2eot in my distribution channels, so I compiled it
-from greyfront's github repo.
+from greyfront's github repo.  https://github.com/greyfont/ttf2eot
+Download it, do it.  Type make.  Move `ttf2eot` to your `~/bin`.
+Done.
 
 Right now it's easier to develop with fontforge installed as a python
 plugin rather than the other way around, since this allows logging
