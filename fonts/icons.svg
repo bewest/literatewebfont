@@ -5,7 +5,7 @@
 -->
 <svg>
 <metadata>
-Created by FontForge 20110222 at Sun Jul 29 19:10:14 2012
+Created by FontForge 20110222 at Sun Jul 29 19:53:11 2012
  By Ben West,,,
 Created by Ben West,,, with FontForge 2.0 (http://fontforge.sf.net)
 </metadata>
@@ -25,8 +25,8 @@ Created by Ben West,,, with FontForge 2.0 (http://fontforge.sf.net)
     unicode-range="U+F000-F081"
   />
     <missing-glyph />
-    <glyph glyph-name="f001.blank-empty.glyph.svg" unicode="&#xf001;" horiz-adv-x="10" 
- />
+    <glyph glyph-name="f001.blank-empty.glyph.svg" unicode="&#xf001;" horiz-adv-x="1020" 
+d="M942.149 751.489c37.4531 -64.3584 67.8506 -177.025 67.8506 -251.489c0 -276 -224 -500 -500 -500s-500 224 -500 500s224 500 500 500c156.401 0 348.562 -108.893 428.933 -243.063z" />
     <glyph glyph-name="f000.blank.glyph.svg" unicode="&#xf000;" horiz-adv-x="168" 
 d="M47.0713 148.285l111.214 -111.214l-37.0713 -37.0713l-111.214 111.214zM10 37.0713l111.214 111.214l37.0713 -37.0713l-111.214 -111.214z" />
     <glyph glyph-name="f023.lock.glyph.svg" unicode="&#xf023;" 

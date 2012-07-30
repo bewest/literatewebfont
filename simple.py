@@ -22,6 +22,7 @@ font.familyname = "LiterateWeb"
 files = glob.glob('./glyphs/*.glyph.svg')
 for f in files:
     name = path.basename(f)
+    # print name
     code, short = name.split('.')[:2]
     glyph = int('0x' + code, 16)
     char  = unicode(glyph)
