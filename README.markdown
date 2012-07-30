@@ -9,9 +9,18 @@ github with a special focus on ding bat webfonts.
 
     ./glyphs2webfont.sh glyphs
 
-This will generate a set of css3 webfonts named `glyphs.woff` in
-`fonts/glyphs.woff` by importing individual SVG images, 1000px x
-1000px from images found by globbing for `glyphs/*.glyphs.svg`.
+This will generate a set of css3 webfonts named:
+
+  * `glyphs.woff`
+
+  * `glyphs.eot`
+
+  * `glyphs.svg`
+
+  * `glyphs.ttf`
+
+by importing individual SVG images, `1000px x 1000px`
+from images found by globbing for `glyphs/*.glyphs.svg`.
 
     ./glyphs2webfont.sh foo
 
@@ -19,7 +28,7 @@ This will generate a set of css3 webfonts named `foo.woff` in
 `fonts/foo.woff` ...  globbing for `foo/*.glyphs.svg`.
 
 The script wraps simple.py which will allow you to customize what
-happensthrough options.
+happens through some options.
 
 
 ## Problem
