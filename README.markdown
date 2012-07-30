@@ -1,5 +1,5 @@
 
-# Rough idea
+# Literate Web Font
 
 ## TL;DR
 This is a literate programming jekyll site to used to develop fonts on
@@ -13,40 +13,36 @@ github with a special focus on ding bat webfonts.
     cd literatewebfont
 
 ### Create a naive webfont
+
+    # glob input from glyphs/ prefix output to fonts/glyphs.
     ./glyphs2webfont.sh glyphs
 
 This will generate a set of css3 webfonts named:
 
-  * `glyphs.woff`
-
-  * `glyphs.eot`
-
-  * `glyphs.svg`
-
-  * `glyphs.ttf`
+  * `fonts/glyphs.woff`
+  * `fonts/glyphs.eot`
+  * `fonts/glyphs.svg`
+  * `fonts/glyphs.ttf`
 
 by importing individual SVG images, `1000px x 1000px`
 from images found by globbing for `glyphs/*.glyphs.svg`.
 
+    # This will generate a set of css3 webfonts named `foo.woff` in
+    # `fonts/foo.woff` ...  globbing for `foo/*.glyphs.svg`.
     ./glyphs2webfont.sh foo
 
-This will generate a set of css3 webfonts named `foo.woff` in
-`fonts/foo.woff` ...  globbing for `foo/*.glyphs.svg`.
-
-
 The script wraps simple.py which will allow you to customize what
-happens through some options.
+happens through some commandline flags.
 
 ### Extract glyphs
 
-    bewest@ripen:~/Documents/git/literatewebfont$ ./glyphs.py -p awesome/ ../Font-Awesome/font/fontawesome-webfont.ttf
-
-This will extract each glyph found in a font to an svg vector in the
-`awesome` directory.
+    # This will extract each glyph found in a font to an svg vector in
+    # the `awesome` directory.
+    ./glyphs.py -p awesome/ ../Font-Awesome/font/fontawesome-webfont.ttf
 
 ### Rebuild a font
 
-    # will create `awesome.[woff|eot]` et al.
+    # will create font/awesome.[woff|eot] et al.
     ./glyphs2webfont.sh awesome
 
 ### Preview your new icons/font
