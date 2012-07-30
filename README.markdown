@@ -52,6 +52,8 @@ css to remap your glyphs.
 TODO: automate stubs for css and html that can be included from a
 generated template.
 
+Here's a naive demo: http://bewest.github.com/literatewebfont/.
+
 
 ## Problem
 You have a bunch of symbols deployable as separate images, often used
