@@ -7,6 +7,8 @@ github with a special focus on ding bat webfonts.
 
 ## Status
 
+    git clone git@github.com:bewest/literatewebfont.git
+    cd literatewebfont
     ./glyphs2webfont.sh glyphs
 
 This will generate a set of css3 webfonts named:
@@ -29,6 +31,9 @@ This will generate a set of css3 webfonts named `foo.woff` in
 
 The script wraps simple.py which will allow you to customize what
 happens through some options.
+
+If you run: `jekyll --site --auto` you can preview your new font by
+visiting http://localhost:4000/.
 
 
 ## Problem
