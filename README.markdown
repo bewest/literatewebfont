@@ -102,6 +102,9 @@ http://en.wikipedia.org/wiki/Private_Use_(Unicode)#Private_Use_Areas
 
 We can re-use bootstrap's mappings.
 
+Do not use these glyph names:
+  * blank
+
 ## Resources 
 
   * http://www.w3.org/TR/css3-fonts/

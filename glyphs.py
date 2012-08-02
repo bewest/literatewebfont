@@ -14,6 +14,10 @@ from pprint import pprint, pformat
 
 def get_parser( ):
   parser = optparse.OptionParser( )
+  parser.add_option('-n', '--noop',
+                    default=False,
+                    action='store_true',
+                    help="Write glyphs to this directory.")
   parser.add_option('-p', '--prefix',
                     default="themes",
                     help="Write glyphs to this directory.")
@@ -45,8 +49,9 @@ class Inspector(object):
     short= glyph.glyphname
     name = '.'.join([code, short, suffix])
     output = path.join(prefix, name)
-    print output, ' ', glyph.glyphname, ' ', 'code', "%04x" % glyph.unicode
-    glyph.export(output)
+    print output, glyph.glyphname, 'code', "%04x" % glyph.unicode
+    if not self.options.noop:
+      glyph.export(output)
 
 def main(*args):
   parser = get_parser( )
