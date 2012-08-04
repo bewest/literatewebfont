@@ -1,7 +1,7 @@
 
 title : Literate Web Font
-baseurl: /literatewebfont/
 
+url: /literatewebfont/
 pygments: true
 author:
   name: bewest
