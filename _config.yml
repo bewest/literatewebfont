@@ -1,5 +1,6 @@
 
 title : Literate Web Font
+baseurl: /literatewebfont/
 
 pygments: true
 author:
