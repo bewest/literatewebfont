@@ -3,9 +3,10 @@
 	<head>
 		<meta charset="utf-8"> 
 		<title>{{ page.title }}</title>
+    <base href="{{site.url}}" />
     <meta name="author" content="Ben West">
-		<link rel="stylesheet" href="{{site.url}}/css/wings.css" type="text/css">
-    <link rel="stylesheet" href="{{site.url}}/css/font.css" />
+		<link rel="stylesheet" href="css/wings.css" type="text/css">
+    <link rel="stylesheet" href="css/font.css" />
     <link rel="alternate" href="/atom.xml" type="application/atom+xml"
       title="literate web font">
 		<link rel="icon" href="favicon.ico">
@@ -27,7 +28,7 @@
               {% for post in site.posts %}
                 <li>
                   <h1><a
-                    href="{{site.url}}/{{ post.url }}"
+                    href="{{ post.url }}"
                     {% if page.id == post.id %}
                       style="background:#dc322f; color:#fdf6e3;"
                     {% endif %}>{{ post.title }}</a></h1>
