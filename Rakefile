@@ -57,7 +57,7 @@ end
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll --auto --server --url http://localhost:4000/"
+  system "jekyll --auto --server --url http://localhost:4000"
 end # task :preview
 
 # https://github.com/plusjade/jekyll-bootstrap/blob/master/Rakefile#L38
