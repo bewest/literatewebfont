@@ -21,13 +21,13 @@ CONFIG = {
 ENV['PATH'] = [ENV['PATH'], './bin'].join(':')
 
 def export_glyphs(font, prefix=CONFIG['glyphs'])
-  glyphs = `./glyphs.py -p #{prefix} #{font}`.collect do |line|
+  glyphs = `glyphs.py -p #{prefix} #{font}`.collect do |line|
     line.split
   end
 end
 
 def get_glyphs(font)
-  glyphs = `./glyphs.py -n #{font}`.collect do |line|
+  glyphs = `glyphs.py -n #{font}`.collect do |line|
     line.split
   end
 end
@@ -57,7 +57,7 @@ end
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll --auto --server"
+  system "jekyll --auto --server --url http://localhost:4000/"
 end # task :preview
 
 # https://github.com/plusjade/jekyll-bootstrap/blob/master/Rakefile#L38
@@ -170,7 +170,7 @@ namespace :font do
   desc "Build a font given a directory of glyphs."
   task :build, [:theme] do |t, args|
     args.with_defaults(:theme=> ENV['theme'] || CONFIG['font_theme'])
-    output = `./glyphs2webfont.sh #{args.theme}`
+    output = `glyphs2webfont.sh #{args.theme}`
     lines = output.collect
     puts "Built font using #{lines.length - 1} glyphs"
     puts "#{lines[0]}"
@@ -187,9 +187,9 @@ namespace :font do
   desc "print glyphs in css given path to font"
   task :css, [:font] do |t, args|
     args.with_defaults(:font => ENV['font'] || CONFIG['font'])
-    command = %Q(./glyphs.py -q -n #{args.font} \
+    command = %Q(glyphs.py -q -n #{args.font} \
                          | sed -e "s|^|icon-|g" \
-                         | ./glyph2css.sh)
+                         | glyph2css.sh)
     system(command)
   end
 
