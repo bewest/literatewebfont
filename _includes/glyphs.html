@@ -1,0 +1,11 @@
+<ul>
+{% for glyph in page.font.glyphs %}
+{% assign name=glyph[0] %}
+{% assign code=glyph[1] %}
+<li>
+  <i class="{{name}}">&nbsp;</i>
+  <strong>{{name}}</strong>
+  <strong>{{code}}</strong>
+</li>
+{% endfor %}
+</ul>

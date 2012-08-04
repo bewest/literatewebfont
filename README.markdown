@@ -1,39 +1,58 @@
 
-# Rough idea
+# Literate Web Font
 
 ## TL;DR
 This is a literate programming jekyll site to used to develop fonts on
 github with a special focus on ding bat webfonts.
 
-## Status
+## Usage
+
+### Install
 
     git clone git@github.com:bewest/literatewebfont.git
     cd literatewebfont
+
+### Create a naive webfont
+
+    # glob input from glyphs/ prefix output to fonts/glyphs.
     ./glyphs2webfont.sh glyphs
 
 This will generate a set of css3 webfonts named:
 
-  * `glyphs.woff`
-
-  * `glyphs.eot`
-
-  * `glyphs.svg`
-
-  * `glyphs.ttf`
+  * `fonts/glyphs.woff`
+  * `fonts/glyphs.eot`
+  * `fonts/glyphs.svg`
+  * `fonts/glyphs.ttf`
 
 by importing individual SVG images, `1000px x 1000px`
 from images found by globbing for `glyphs/*.glyphs.svg`.
 
+    # This will generate a set of css3 webfonts named `foo.woff` in
+    # `fonts/foo.woff` ...  globbing for `foo/*.glyphs.svg`.
     ./glyphs2webfont.sh foo
 
-This will generate a set of css3 webfonts named `foo.woff` in
-`fonts/foo.woff` ...  globbing for `foo/*.glyphs.svg`.
-
 The script wraps simple.py which will allow you to customize what
-happens through some options.
+happens through some commandline flags.
 
+### Extract glyphs
+
+    # This will extract each glyph found in a font to an svg vector in
+    # the `awesome` directory.
+    ./glyphs.py -p awesome/ ../Font-Awesome/font/fontawesome-webfont.ttf
+
+### Rebuild a font
+
+    # will create font/awesome.[woff|eot] et al.
+    ./glyphs2webfont.sh awesome
+
+### Preview your new icons/font
 If you run: `jekyll --site --auto` you can preview your new font by
-visiting http://localhost:4000/.
+visiting http://localhost:4000/.  You may have to edit the html and
+css to remap your glyphs.
+TODO: automate stubs for css and html that can be included from a
+generated template.
+
+Here's a naive demo: http://bewest.github.com/literatewebfont/.
 
 
 ## Problem
@@ -72,7 +91,7 @@ Here are the glyph specs:
 > Set an horizontal guide at 200px
 http://ospublish.constantvzw.org/tools/import-inkscape-in-fontforge
 
-The resulting fonts are placed in ./fonts
+The resulting fonts are placed in `./fonts`.
 
 It's possible that this could be combined with a fancy js svg editor
 to allow users to edit glyphs in their browser, save changes to their
@@ -82,6 +101,9 @@ Glyph mappings could be from U+F0000 to U+FFFFD
 http://en.wikipedia.org/wiki/Private_Use_(Unicode)#Private_Use_Areas
 
 We can re-use bootstrap's mappings.
+
+Do not use these glyph names:
+  * blank
 
 ## Resources 
 
@@ -134,6 +156,11 @@ glyphs would be nice.
 
 The excllent jekyll et al, fontforge, python, ttf2eot
 
+Right now it's easier to develop with fontforge installed as a python
+plugin rather than the other way around, since this allows logging
+what we are doing etc...
+
+### Ubuntu and friends
     sudo apt-get install python-fontforge
 
 I couldn't find ttf2eot in my distribution channels, so I compiled it
@@ -148,6 +175,10 @@ Download it, do it.  Here:
 If only the last step fails, `mkdir ~/bin` and add
 `export PATH=$PATH:~/bin/` to your profile.
 
-Right now it's easier to develop with fontforge installed as a python
-plugin rather than the other way around, since this allows logging
-what we are doing etc...
+### MAC OS/X and brew
+I have not tried this:
+
+    # https://github.com/mxcl/homebrew/issues/4689
+    brew install fontforge
+    brew install ttf2eot
+
