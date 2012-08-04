@@ -21,6 +21,10 @@ def get_parser( ):
   parser.add_option('-p', '--prefix',
                     default="themes",
                     help="Write glyphs to this directory.")
+  parser.add_option('-q', '--quiet',
+                    default=False,
+                    action='store_true',
+                    help="Only print 2 columns, glyph and code.")
   parser.add_option('-s', '--suffix',
                     default="glyph.svg",
                     help="Use this suffix when writing glyphs.")
@@ -49,7 +53,10 @@ class Inspector(object):
     short= glyph.glyphname
     name = '.'.join([code, short, suffix])
     output = path.join(prefix, name)
-    print output, glyph.glyphname, 'code', "%04x" % glyph.unicode
+    printable = [ output, glyph.glyphname, 'code', "%04x" % glyph.unicode ]
+    if self.options.quiet:
+      printable = [ glyph.glyphname, "%04x" % glyph.unicode ]
+    print ' '.join(printable)
     if not self.options.noop:
       glyph.export(output)
 

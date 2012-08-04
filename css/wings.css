@@ -1,0 +1,68 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ margin:0; padding:0;}
+table{ border-collapse:collapse; border-spacing:0;}
+fieldset,img{ border:0;}
+address,caption,cite,code,dfn,var{ font-style:normal; font-weight:normal;}
+ol,ul{ list-style:none;}
+caption,th{ text-align:left;}
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal;}
+q:before,q:after{ content:'';}
+abbr,acronym{ border:0;}
+
+html{ overflow-x:hidden; overflow-y:scroll;}
+body{ background:white; color:#002b36; font-family:Verdana,sans-serif;
+font-size:13px; line-height:20px; padding:40px 0 40px 320px;
+margin-right: 1em;
+}
+a{ border-bottom:1px solid #eee8d5; color:#268bd2; cursor:pointer; position:relative; text-decoration:none; transition:all 300ms ease-out; -moz-transition:all 300ms ease-out; -webkit-transition:all 300ms ease-out;}
+a:hover{ border-bottom-color:#268bd2;}
+a:active{ outline:none; top:1px;}
+
+article h1{ color:#dc322f; font-family:Georgia,serif; font-size:24px; line-height:25px;}
+article time{ color:#b58900; display:block; font-family:Georgia,serif; font-size:10px; font-style:italic; letter-spacing:1px;}
+article time,article p,article ul,article ol,article blockquote{ margin-bottom:10px;}
+article p:last-child,article blockquote:last-child{ margin-bottom:0;}
+article ul,article ol{ padding-left:20px;}
+article ul{ list-style-type:square;}
+article ol{ list-style-type:decimal;}
+article code{ background:#fdf6e3; border-radius:3px; color:#b58900; font-size:11px; padding:0 3px 1px; white-space:nowrap;}
+article blockquote{ background:#fdf6e3; border-left:2px solid #eee8d5; color:#b58900; font-style:italic; padding:5px 10px;}
+
+div.sidewing { background:#002b36; color:#586e75; font-size:10px; height:100%; left:0; line-height:15px; padding:40px 0; position:fixed; top:0; width:280px;}
+div.sidewing a{ border-color:#073642; color:#586e75;}
+div.sidewing a:hover{ border-bottom-color:#fdf6e3; color:#fdf6e3;}
+pre, code, kbd, samp { font-family: monospace, sans-serif;
+white-space: pre; }
+
+article {
+overflow: auto;
+}
+
+
+header{ 
+border-bottom:1px solid #073642;
+margin:0 20px;
+}
+/*  Nice header effect here.
+header{ background:url(/i/jt.png) no-repeat 5px 2px; border-bottom:1px solid #073642; margin:0 20px; padding:0 0 20px 40px;}
+*/
+header strong,header em{ display:block;}
+header strong{ font-family:Georgia,serif; font-size:18px; font-weight:normal;}
+header a{ color:#fdf6e3;}
+header a span{ color:#268bd2; font-size:11px; font-style:italic;}
+header em,aside h2,footer em{ color:#2aa198; font-family:Georgia,serif; font-style:italic; letter-spacing:1px;}
+
+nav a{ border:none; color:#859900; display:block; font-family:Georgia,serif; font-size:14px; line-height:20px; padding:5px 0 5px 20px;}
+nav a:hover{ background:#073642; color:#268bd2;}
+nav a:active{ top:0;}
+nav time{ display:none;}
+
+aside{ float:left; padding-bottom:10px; width:100%;}
+aside section,footer{ border-top:1px solid #073642; margin:10px 20px 0; padding-top:10px;}
+aside section:first-child{ border:none; margin:0;}
+aside section:nth-child(3),aside section:nth-child(4){ float:left; width:120px;}
+aside section:nth-child(3){ margin-right:0;}
+aside section:nth-child(4){ margin-left:0;}
+aside section:first-child h2{ display:none; padding-left:20px;}
+
+footer{ clear:both;}
+footer em{ float:left; width:50%;}

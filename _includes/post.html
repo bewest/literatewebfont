@@ -1,0 +1,7 @@
+
+<article data-id="{{ page.id | remove:'/' }}">
+  <h1>{{ page.title }}</h1>
+  <time>{{ page.date | date_to_string }}</time>
+  {{ content }}
+  {%include glyphs.html%}
+</article>

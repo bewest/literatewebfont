@@ -1,0 +1,19 @@
+--- 
+layout: font
+font: 
+  glyphs: 
+  - - icon-dot
+    - f002
+  - - icon-blank-empty
+    - f001
+  - - icon-blank
+    - f000
+  - - icon-meraki-miles
+    - f099
+  - - icon-lock
+    - f023
+  - - icon-twitter-bird
+    - f081
+  name: Glyphs
+---
+

@@ -19,7 +19,7 @@ def get_parser( ):
                     default="./fonts",
                     help="Write fonts to OUTPUT")
   parser.add_option('--fontname',
-                    default="Font",
+                    default=None,
                     help="fontforge's font.fontname")
   parser.add_option('--familyname',
                     default="Literate Web",
@@ -30,6 +30,7 @@ def get_parser( ):
   return parser
 
 def prep_val(val):
+  val = str(val)
   if ' ' in val:
     return "'%s'" % val
   return val
@@ -56,6 +57,9 @@ class WebFont(object):
     return glob.glob(search)
 
   def convert(self, theme):
+    fontname = self.options.fontname
+    if not fontname:
+      fontname = theme
     file_prefix = path.join(self.options.output, theme)
     # create empty font
     self.font = font = fontforge.font()
@@ -63,9 +67,9 @@ class WebFont(object):
     #file_prefix = 'icons'
 
     # set font names
-    font.fontname = self.options.fontname
+    font.fontname = fontname
     font.familyname = self.options.familyname
-    font.fullname = ' '.join([ self.options.familyname, self.options.fontname ])
+    font.fullname = ' '.join([ self.options.familyname, fontname ])
 
     # import svgs
     files = self.collect_glyphs(theme)

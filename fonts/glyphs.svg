@@ -1,16 +1,16 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <!--
-2012-8-2: Created.
+2012-8-4: Created.
 -->
 <svg>
 <metadata>
-Created by FontForge 20110222 at Thu Aug  2 00:14:51 2012
+Created by FontForge 20110222 at Sat Aug  4 15:17:36 2012
  By Ben West,,,
 Created by Ben West,,, with FontForge 2.0 (http://fontforge.sf.net)
 </metadata>
 <defs>
-<font id="Font" horiz-adv-x="1020" >
+<font id="glyphs" horiz-adv-x="1020" >
   <font-face 
     font-family="Literate Web"
     font-weight="500"
@@ -22,15 +22,13 @@ Created by Ben West,,, with FontForge 2.0 (http://fontforge.sf.net)
     bbox="10 0 1010 1000"
     underline-thickness="50"
     underline-position="-100"
-    unicode-range="U+F000-F099"
+    unicode-range="U+F001-F099"
   />
     <missing-glyph />
     <glyph glyph-name="dot" unicode="&#xf002;" 
 d="M941.997 751.371c37.4473 -64.3486 67.8389 -176.998 67.8389 -251.449c0 -275.957 -223.963 -499.922 -499.918 -499.922s-499.918 223.965 -499.918 499.922c0 275.956 223.963 499.921 499.918 499.921c156.375 0 348.506 -108.875 428.863 -243.025z" />
     <glyph glyph-name="blank-empty" unicode="&#xf001;" 
 d="M942.149 751.489c37.4531 -64.3584 67.8506 -177.025 67.8506 -251.489c0 -276 -224 -500 -500 -500s-500 224 -500 500s224 500 500 500c156.401 0 348.562 -108.893 428.933 -243.063z" />
-    <glyph glyph-name="blank" unicode="&#xf000;" horiz-adv-x="168" 
-d="M47.0713 148.285l111.214 -111.214l-37.0713 -37.0713l-111.214 111.214zM10 37.0713l111.214 111.214l37.0713 -37.0713l-111.214 -111.214z" />
     <glyph glyph-name="meraki-miles" unicode="&#xf099;" horiz-adv-x="997" 
 d="M13.4805 115.586c27.791 331.493 159.974 532.61 402.345 612.176c125.994 41.3613 281.733 46.0215 365.688 10.9434c177.922 -74.3408 265.054 -329.928 160.574 -471.014c-90.1953 -121.795 -211.134 -159.412 -463.128 -144.055
 c-214.462 13.0703 -299.928 -3.37402 -390.581 -75.1504c-33.6816 -26.668 -66.4932 -48.4863 -72.9141 -48.4863c-6.41992 0 -7.3125 52.0137 -1.9834 115.586zM771.74 273.733c0 33.1807 8.2959 41.4756 41.4756 41.4756c35.0234 0 41.4746 7.74219 41.4746 49.7695

@@ -1,0 +1,28 @@
+---
+layout: post
+---
+<style type="text/css">
+@import url('{{site.url}}/css/{{page.font.name}}.css');
+{% capture prefix %}{{page.font.prefix}}/{{page.font.name}}{% endcapture %}
+@font-face {
+    font-family: '{{page.font.title}}';
+    src: url('{{site.url}}/{{prefix}}.eot');
+    src: url('{{site.url}}/{{prefix}}.eot?#iefix') format('embedded-opentype'),
+         url('{{site.url}}/{{prefix}}.woff') format('woff'),
+         url('{{site.url}}/{{prefix}}.ttf') format('truetype'),
+         url('{{site.url}}/{{prefix}}.svg#LiterateWeb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Stub out some basics.
+* ------------------------------------------------------- */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: {{page.font.title}};
+}
+</style>
+
+<h2>Glyphs found in {{ prefix }}.ttf</h2>
+
+{{content}}
