@@ -1,6 +1,7 @@
 
 title : Literate Web Font
 
+pygments: true
 author:
   name: bewest
   email: bewest+literatewebfonts@gmail.com
