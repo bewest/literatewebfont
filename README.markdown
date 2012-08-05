@@ -12,48 +12,22 @@ github with a special focus on ding bat webfonts.
     git clone git@github.com:bewest/literatewebfont.git
     cd literatewebfont
 
-### Create a naive webfont
+### Running with rake
 
-    # glob input from glyphs/ prefix output to fonts/glyphs.
-    ./glyphs2webfont.sh glyphs
+    rake font:analyze[font,theme]    # given a font, export and publish the glyphs in a post
+    rake font:build[theme]           # Build a font given a directory of glyphs.
+    rake font:css[font]              # print glyphs in css given path to font
+    rake font:demo[font,post]        # add/update yaml in a post
+    rake font:export[font,prefix]    # Export a font's glyphs to a directory.
+    rake font:glyphs[font]           # print list glyphs from a font.
+    rake font:publish[theme]         # publish directory of glyphs as new font with demo post
+    rake font:yaml[font]             # print glyphs in yaml given path to font
+    rake foobar[one,two]             # Fake task
+    rake post[title,date,overwrite]  # Begin a new post in ./_posts
+    rake preview                     # Launch preview environment
 
-This will generate a set of css3 webfonts named:
 
-  * `fonts/glyphs.woff`
-  * `fonts/glyphs.eot`
-  * `fonts/glyphs.svg`
-  * `fonts/glyphs.ttf`
-
-by importing individual SVG images, `1000px x 1000px`
-from images found by globbing for `glyphs/*.glyphs.svg`.
-
-    # This will generate a set of css3 webfonts named `foo.woff` in
-    # `fonts/foo.woff` ...  globbing for `foo/*.glyphs.svg`.
-    ./glyphs2webfont.sh foo
-
-The script wraps simple.py which will allow you to customize what
-happens through some commandline flags.
-
-### Extract glyphs
-
-    # This will extract each glyph found in a font to an svg vector in
-    # the `awesome` directory.
-    ./glyphs.py -p awesome/ ../Font-Awesome/font/fontawesome-webfont.ttf
-
-### Rebuild a font
-
-    # will create font/awesome.[woff|eot] et al.
-    ./glyphs2webfont.sh awesome
-
-### Preview your new icons/font
-If you run: `jekyll --site --auto` you can preview your new font by
-visiting http://localhost:4000/.  You may have to edit the html and
-css to remap your glyphs.
-TODO: automate stubs for css and html that can be included from a
-generated template.
-
-Here's a naive demo: http://bewest.github.com/literatewebfont/.
-
+Here's a demo: http://bewest.github.com/literatewebfont/.
 
 ## Problem
 You have a bunch of symbols deployable as separate images, often used
@@ -146,11 +120,14 @@ of symbols into a webfont.  Since the results are viewable in HTML, a
 simple tool to update results would be nice.
 
 ## TODO
-Some option parsing and a manifest/mapping mechanism would go a
-long way.
 
-Demo pages to point and demo the new fonts.  Some js to audit and edit
-glyphs would be nice.
+A manifest/mapping mechanism would go a long way.  Need a quick way to
+rename unicode glyphs given a mapping.  Need another way to generate a
+mapping (potentially from known css file).
+
+Some js to audit and edit glyphs would be nice.
+A shape generator that allows downloading svg glyphs would also be
+cool, and perhaps a better place to start.
 
 ## Requirements
 
@@ -159,6 +136,13 @@ The excllent jekyll et al, fontforge, python, ttf2eot
 Right now it's easier to develop with fontforge installed as a python
 plugin rather than the other way around, since this allows logging
 what we are doing etc...
+
+### MAC OS/X and brew
+I have not tried this:
+
+    # https://github.com/mxcl/homebrew/issues/4689
+    brew install fontforge
+    brew install ttf2eot
 
 ### Ubuntu and friends
     sudo apt-get install python-fontforge
@@ -170,15 +154,50 @@ Download it, do it.  Here:
     git clone git://github.com/greyfont/ttf2eot.git
     cd ttf2eot
     make
-    cp ttf2eot ~/bin
+    ttf2eot /path/to/git/literatewebfont/bin # or
+    # put it in your home directory
+    # cp ttf2eot ~/bin
 
 If only the last step fails, `mkdir ~/bin` and add
 `export PATH=$PATH:~/bin/` to your profile.
 
-### MAC OS/X and brew
-I have not tried this:
+### What goes on under the hood
+#### Create a naive webfont
 
-    # https://github.com/mxcl/homebrew/issues/4689
-    brew install fontforge
-    brew install ttf2eot
+    # glob input from glyphs/ prefix output to fonts/glyphs.
+    ./bin/glyphs2webfont.sh glyphs
 
+This will generate a set of css3 webfonts named:
+
+  * `fonts/glyphs.woff`
+  * `fonts/glyphs.eot`
+  * `fonts/glyphs.svg`
+  * `fonts/glyphs.ttf`
+
+by importing individual SVG images, `1000px x 1000px`
+from images found by globbing for `glyphs/*.glyphs.svg`.
+
+    # This will generate a set of css3 webfonts named `foo.woff` in
+    # `fonts/foo.woff` ...  globbing for `foo/*.glyphs.svg`.
+    ./bin/glyphs2webfont.sh foo
+
+The script wraps simple.py which will allow you to customize what
+happens through some commandline flags.
+
+#### Extract glyphs
+
+    # This will extract each glyph found in a font to an svg vector in
+    # the `awesome` directory.
+    ./bin/glyphs.py -p awesome/ ../Font-Awesome/font/fontawesome-webfont.ttf
+
+#### Rebuild a font
+
+    # will create font/awesome.[woff|eot] et al.
+    ./bin/glyphs2webfont.sh awesome
+
+#### Preview your new icons/font
+If you run: `jekyll --site --auto` you can preview your new font by
+visiting http://localhost:4000/.  You may have to edit the html and
+css to remap your glyphs.
+TODO: automate stubs for css and html that can be included from a
+generated template.
