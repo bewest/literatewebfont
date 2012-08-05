@@ -18,13 +18,14 @@ id: foobar
     <p>If there is a dot here, it's working: <i class="icon-dot"></i>
     </p>
     <h2>Test using a twitter icon</h2>
-    <p> webfont+css generated content trickery: <i class="icon-twitter-bird"></i>
+    <p>webfont+css generated content trickery:
+      <i class="icon-twitter-bird"></i>
     </p>
-    <p> png: <i><img src="images/twitter-bird.png" /></i> </p>
+    <p>png: <i><img src="images/twitter-bird.png" /></i> </p>
     <h2>Test using a blank glyph from by hand </h2>
-    <p> webfont+css generated content trickery: <i class="icon-blank"></i>
-    <p> Hi Miles: <i class="icon-meraki-miles"></i>
-    <p> dot: <i class="icon-dot"></i> </p>
+    <p>webfont+css generated content trickery: <i class="icon-blank"></i>
+    <p>Hi Miles: <i class="icon-meraki-miles"></i>
+    <p>dot: <i class="icon-dot"></i> </p>
 
     <h3>Design fonts with ease</h3>
     <ol>
@@ -32,7 +33,7 @@ id: foobar
         >git clone https://github.com/bewest/literatewebfont.git</tt></li>
       <li>Edit the glyphs in <tt>./glyphs</tt></li>
       <li>
-        Run <tt>./glyphs2webfont glyphs</tt> Enjoy your new font.</li>
+        Run <tt>rake font:publish[glyphs]</tt> Enjoy your new font.</li>
     </ol>
 
     {% include simple.html %}
