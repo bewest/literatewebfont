@@ -42,13 +42,13 @@ header{ background:url(/i/jt.png) no-repeat 5px 2px; border-bottom:1px solid #07
 */
 header strong,header em{ display:block;}
 header strong{ font-family:Georgia,serif; font-size:18px; font-weight:normal;}
-header a{ color:#fdf6e3;}
-header a span{ color:#268bd2; font-size:11px; font-style:italic;}
+.sidewing header a{ color:#fdf6e3;}
+.sidewing header a span{ color:#268bd2; font-size:11px; font-style:italic;}
 header em,aside h2,footer em{ color:#2aa198; font-family:Georgia,serif; font-style:italic; letter-spacing:1px;}
 
-nav a{ border:none; color:#859900; display:block; font-family:Georgia,serif; font-size:14px; line-height:20px; padding:5px 0 5px 20px;}
-nav a:hover{ background:#073642; color:#268bd2;}
-nav a:active{ top:0;}
+.sidewing nav a{ border:none; color:#859900; display:block; font-family:Georgia,serif; font-size:14px; line-height:20px; padding:5px 0 5px 20px;}
+.sidewing nav a:hover{ background:#073642; color:#268bd2;}
+.sidewing nav a:active{ top:0;}
 nav time{ display:none;}
 
 aside{ float:left; padding-bottom:10px; width:100%;}
