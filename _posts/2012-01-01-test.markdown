@@ -1,10 +1,1602 @@
 ---
 layout: font
 font:
-  title: Musica
-  name: Musica
+  title: LastResort
+  name: LastResort
   prefix: fonts
-  path: fonts/Musica.ttf
-  glyphs: []
+  path: fonts/LastResort.ttf
+  glyphs:
+  - - icon-lastresortlatin
+    - 007f
+  - - icon-lastresortlatin1
+    - 00ff
+  - - icon-lastresortlatina
+    - 017f
+  - - icon-lastresortlatinb
+    - 024f
+  - - icon-lastresortipaextensions
+    - 02af
+  - - icon-lastresortspacingmodifiers
+    - 02ff
+  - - icon-lastresortcombiningdiacritics
+    - 036f
+  - - icon-lastresortgreek
+    - 03ff
+  - - icon-lastresortcyrillic
+    - 04ff
+  - - icon-lastresortcyrillicsupplement
+    - '0513'
+  - - icon-lastresortarmenian
+    - 058a
+  - - icon-lastresorthebrew
+    - 05f4
+  - - icon-lastresortarabic
+    - 06ff
+  - - icon-lastresortsyriac
+    - 074f
+  - - icon-lastresortarabicsup
+    - 076d
+  - - icon-lastresortthaana
+    - 07b1
+  - - icon-lastresortnko
+    - 07fa
+  - - icon-uni0901
+    - 0901
+  - - icon-uni0902
+    - 0902
+  - - icon-uni0903
+    - 0903
+  - - icon-uni0904
+    - 0904
+  - - icon-uni0905
+    - 0905
+  - - icon-uni0906
+    - 0906
+  - - icon-uni0907
+    - 0907
+  - - icon-uni0908
+    - 0908
+  - - icon-uni0909
+    - 0909
+  - - icon-uni090A
+    - 090a
+  - - icon-uni090B
+    - 090b
+  - - icon-uni090C
+    - 090c
+  - - icon-uni090D
+    - 090d
+  - - icon-uni090E
+    - 090e
+  - - icon-uni090F
+    - 090f
+  - - icon-uni0910
+    - 0910
+  - - icon-uni0911
+    - 0911
+  - - icon-uni0912
+    - 0912
+  - - icon-uni0913
+    - 0913
+  - - icon-uni0914
+    - 0914
+  - - icon-uni0915
+    - 0915
+  - - icon-uni0916
+    - 0916
+  - - icon-uni0917
+    - 0917
+  - - icon-uni0918
+    - 0918
+  - - icon-uni0919
+    - 0919
+  - - icon-uni091A
+    - 091a
+  - - icon-uni091B
+    - 091b
+  - - icon-uni091C
+    - 091c
+  - - icon-uni091D
+    - 091d
+  - - icon-uni091E
+    - 091e
+  - - icon-uni091F
+    - 091f
+  - - icon-uni0920
+    - 0920
+  - - icon-uni0921
+    - 0921
+  - - icon-uni0922
+    - 0922
+  - - icon-uni0923
+    - 0923
+  - - icon-uni0924
+    - 0924
+  - - icon-uni0925
+    - 0925
+  - - icon-uni0926
+    - 0926
+  - - icon-uni0927
+    - 0927
+  - - icon-uni0928
+    - 0928
+  - - icon-uni0929
+    - 0929
+  - - icon-uni092A
+    - 092a
+  - - icon-uni092B
+    - 092b
+  - - icon-uni092C
+    - 092c
+  - - icon-uni092D
+    - 092d
+  - - icon-uni092E
+    - 092e
+  - - icon-uni092F
+    - 092f
+  - - icon-uni0930
+    - 0930
+  - - icon-uni0931
+    - 0931
+  - - icon-uni0932
+    - 0932
+  - - icon-uni0933
+    - 0933
+  - - icon-uni0934
+    - 0934
+  - - icon-uni0935
+    - 0935
+  - - icon-uni0936
+    - 0936
+  - - icon-uni0937
+    - 0937
+  - - icon-uni0938
+    - 0938
+  - - icon-uni0939
+    - 0939
+  - - icon-uni093C
+    - 093c
+  - - icon-uni093D
+    - 093d
+  - - icon-uni093E
+    - 093e
+  - - icon-uni093F
+    - 093f
+  - - icon-uni0940
+    - 0940
+  - - icon-uni0941
+    - 0941
+  - - icon-uni0942
+    - 0942
+  - - icon-uni0943
+    - 0943
+  - - icon-uni0944
+    - 0944
+  - - icon-uni0945
+    - 0945
+  - - icon-uni0946
+    - 0946
+  - - icon-uni0947
+    - 0947
+  - - icon-uni0948
+    - 0948
+  - - icon-uni0949
+    - 0949
+  - - icon-uni094A
+    - 094a
+  - - icon-uni094B
+    - 094b
+  - - icon-uni094C
+    - 094c
+  - - icon-uni094D
+    - 094d
+  - - icon-uni0950
+    - 0950
+  - - icon-uni0951
+    - 0951
+  - - icon-uni0952
+    - 0952
+  - - icon-uni0953
+    - 0953
+  - - icon-uni0954
+    - 0954
+  - - icon-uni0958
+    - 0958
+  - - icon-uni0959
+    - 0959
+  - - icon-uni095A
+    - 095a
+  - - icon-uni095B
+    - 095b
+  - - icon-uni095C
+    - 095c
+  - - icon-uni095D
+    - 095d
+  - - icon-uni095E
+    - 095e
+  - - icon-uni095F
+    - 095f
+  - - icon-uni0960
+    - 0960
+  - - icon-uni0961
+    - 0961
+  - - icon-uni0962
+    - 0962
+  - - icon-uni0963
+    - 0963
+  - - icon-uni0964
+    - 0964
+  - - icon-uni0965
+    - 0965
+  - - icon-uni0966
+    - 0966
+  - - icon-uni0967
+    - 0967
+  - - icon-uni0968
+    - 0968
+  - - icon-uni0969
+    - 0969
+  - - icon-uni096A
+    - 096a
+  - - icon-uni096B
+    - 096b
+  - - icon-uni096C
+    - 096c
+  - - icon-uni096D
+    - 096d
+  - - icon-uni096E
+    - 096e
+  - - icon-uni096F
+    - 096f
+  - - icon-uni0970
+    - 0970
+  - - icon-uni097B
+    - 097b
+  - - icon-uni097C
+    - 097c
+  - - icon-uni097D
+    - 097d
+  - - icon-uni097E
+    - 097e
+  - - icon-uni097F
+    - 097f
+  - - icon-uni0981
+    - 0981
+  - - icon-uni0982
+    - 0982
+  - - icon-uni0983
+    - 0983
+  - - icon-uni0985
+    - 0985
+  - - icon-uni0986
+    - 0986
+  - - icon-uni0987
+    - 0987
+  - - icon-uni0988
+    - 0988
+  - - icon-uni0989
+    - 0989
+  - - icon-uni098A
+    - 098a
+  - - icon-uni098B
+    - 098b
+  - - icon-uni098C
+    - 098c
+  - - icon-uni098F
+    - 098f
+  - - icon-uni0990
+    - 0990
+  - - icon-uni0993
+    - 0993
+  - - icon-uni0994
+    - 0994
+  - - icon-uni0995
+    - 0995
+  - - icon-uni0996
+    - 0996
+  - - icon-uni0997
+    - 0997
+  - - icon-uni0998
+    - 0998
+  - - icon-uni0999
+    - 0999
+  - - icon-uni099A
+    - 099a
+  - - icon-uni099B
+    - 099b
+  - - icon-uni099C
+    - 099c
+  - - icon-uni099D
+    - 099d
+  - - icon-uni099E
+    - 099e
+  - - icon-uni099F
+    - 099f
+  - - icon-uni09A0
+    - 09a0
+  - - icon-uni09A1
+    - 09a1
+  - - icon-uni09A2
+    - 09a2
+  - - icon-uni09A3
+    - 09a3
+  - - icon-uni09A4
+    - 09a4
+  - - icon-uni09A5
+    - 09a5
+  - - icon-uni09A6
+    - 09a6
+  - - icon-uni09A7
+    - 09a7
+  - - icon-uni09A8
+    - 09a8
+  - - icon-uni09AA
+    - 09aa
+  - - icon-uni09AB
+    - 09ab
+  - - icon-uni09AC
+    - 09ac
+  - - icon-uni09AD
+    - 09ad
+  - - icon-uni09AE
+    - 09ae
+  - - icon-uni09AF
+    - 09af
+  - - icon-uni09B0
+    - 09b0
+  - - icon-uni09B2
+    - 09b2
+  - - icon-uni09B6
+    - 09b6
+  - - icon-uni09B7
+    - 09b7
+  - - icon-uni09B8
+    - 09b8
+  - - icon-uni09B9
+    - 09b9
+  - - icon-uni09BC
+    - 09bc
+  - - icon-uni09BD
+    - 09bd
+  - - icon-uni09BE
+    - 09be
+  - - icon-uni09BF
+    - 09bf
+  - - icon-uni09C0
+    - 09c0
+  - - icon-uni09C1
+    - 09c1
+  - - icon-uni09C2
+    - 09c2
+  - - icon-uni09C3
+    - 09c3
+  - - icon-uni09C4
+    - 09c4
+  - - icon-uni09C7
+    - 09c7
+  - - icon-uni09C8
+    - 09c8
+  - - icon-uni09CB
+    - 09cb
+  - - icon-uni09CC
+    - 09cc
+  - - icon-uni09CD
+    - 09cd
+  - - icon-uni09CE
+    - 09ce
+  - - icon-uni09D7
+    - 09d7
+  - - icon-uni09DC
+    - 09dc
+  - - icon-uni09DD
+    - 09dd
+  - - icon-uni09DF
+    - 09df
+  - - icon-uni09E0
+    - 09e0
+  - - icon-uni09E1
+    - 09e1
+  - - icon-uni09E2
+    - 09e2
+  - - icon-uni09E3
+    - 09e3
+  - - icon-uni09E6
+    - 09e6
+  - - icon-uni09E7
+    - 09e7
+  - - icon-uni09E8
+    - 09e8
+  - - icon-uni09E9
+    - 09e9
+  - - icon-uni09EA
+    - 09ea
+  - - icon-uni09EB
+    - 09eb
+  - - icon-uni09EC
+    - 09ec
+  - - icon-uni09ED
+    - 09ed
+  - - icon-uni09EE
+    - 09ee
+  - - icon-uni09EF
+    - 09ef
+  - - icon-uni09F0
+    - 09f0
+  - - icon-uni09F1
+    - 09f1
+  - - icon-uni09F2
+    - 09f2
+  - - icon-uni09F3
+    - 09f3
+  - - icon-uni09F4
+    - 09f4
+  - - icon-uni09F5
+    - 09f5
+  - - icon-uni09F6
+    - 09f6
+  - - icon-uni09F7
+    - 09f7
+  - - icon-uni09F8
+    - 09f8
+  - - icon-uni09F9
+    - 09f9
+  - - icon-uni09FA
+    - 09fa
+  - - icon-uni0A01
+    - 0a01
+  - - icon-uni0A02
+    - 0a02
+  - - icon-uni0A03
+    - 0a03
+  - - icon-uni0A05
+    - 0a05
+  - - icon-uni0A06
+    - 0a06
+  - - icon-uni0A07
+    - 0a07
+  - - icon-uni0A08
+    - 0a08
+  - - icon-uni0A09
+    - 0a09
+  - - icon-uni0A0A
+    - 0a0a
+  - - icon-uni0A0F
+    - 0a0f
+  - - icon-uni0A10
+    - 0a10
+  - - icon-uni0A13
+    - 0a13
+  - - icon-uni0A14
+    - 0a14
+  - - icon-uni0A15
+    - 0a15
+  - - icon-uni0A16
+    - 0a16
+  - - icon-uni0A17
+    - 0a17
+  - - icon-uni0A18
+    - 0a18
+  - - icon-uni0A19
+    - 0a19
+  - - icon-uni0A1A
+    - 0a1a
+  - - icon-uni0A1B
+    - 0a1b
+  - - icon-uni0A1C
+    - 0a1c
+  - - icon-uni0A1D
+    - 0a1d
+  - - icon-uni0A1E
+    - 0a1e
+  - - icon-uni0A1F
+    - 0a1f
+  - - icon-uni0A20
+    - 0a20
+  - - icon-uni0A21
+    - 0a21
+  - - icon-uni0A22
+    - 0a22
+  - - icon-uni0A23
+    - 0a23
+  - - icon-uni0A24
+    - 0a24
+  - - icon-uni0A25
+    - 0a25
+  - - icon-uni0A26
+    - 0a26
+  - - icon-uni0A27
+    - 0a27
+  - - icon-uni0A28
+    - 0a28
+  - - icon-uni0A2A
+    - 0a2a
+  - - icon-uni0A2B
+    - 0a2b
+  - - icon-uni0A2C
+    - 0a2c
+  - - icon-uni0A2D
+    - 0a2d
+  - - icon-uni0A2E
+    - 0a2e
+  - - icon-uni0A2F
+    - 0a2f
+  - - icon-uni0A30
+    - 0a30
+  - - icon-uni0A32
+    - 0a32
+  - - icon-uni0A33
+    - 0a33
+  - - icon-uni0A35
+    - 0a35
+  - - icon-uni0A36
+    - 0a36
+  - - icon-uni0A38
+    - 0a38
+  - - icon-uni0A39
+    - 0a39
+  - - icon-uni0A3C
+    - 0a3c
+  - - icon-uni0A3E
+    - 0a3e
+  - - icon-uni0A3F
+    - 0a3f
+  - - icon-uni0A40
+    - 0a40
+  - - icon-uni0A41
+    - 0a41
+  - - icon-uni0A42
+    - 0a42
+  - - icon-uni0A47
+    - 0a47
+  - - icon-uni0A48
+    - 0a48
+  - - icon-uni0A4B
+    - 0a4b
+  - - icon-uni0A4C
+    - 0a4c
+  - - icon-uni0A4D
+    - 0a4d
+  - - icon-uni0A59
+    - 0a59
+  - - icon-uni0A5A
+    - 0a5a
+  - - icon-uni0A5B
+    - 0a5b
+  - - icon-uni0A5C
+    - 0a5c
+  - - icon-uni0A5E
+    - 0a5e
+  - - icon-uni0A66
+    - 0a66
+  - - icon-uni0A67
+    - 0a67
+  - - icon-uni0A68
+    - 0a68
+  - - icon-uni0A69
+    - 0a69
+  - - icon-uni0A6A
+    - 0a6a
+  - - icon-uni0A6B
+    - 0a6b
+  - - icon-uni0A6C
+    - 0a6c
+  - - icon-uni0A6D
+    - 0a6d
+  - - icon-uni0A6E
+    - 0a6e
+  - - icon-uni0A6F
+    - 0a6f
+  - - icon-uni0A70
+    - 0a70
+  - - icon-uni0A71
+    - 0a71
+  - - icon-uni0A72
+    - 0a72
+  - - icon-uni0A73
+    - 0a73
+  - - icon-uni0A74
+    - 0a74
+  - - icon-uni0A81
+    - 0a81
+  - - icon-uni0A82
+    - 0a82
+  - - icon-uni0A83
+    - 0a83
+  - - icon-uni0A85
+    - 0a85
+  - - icon-uni0A86
+    - 0a86
+  - - icon-uni0A87
+    - 0a87
+  - - icon-uni0A88
+    - 0a88
+  - - icon-uni0A89
+    - 0a89
+  - - icon-uni0A8A
+    - 0a8a
+  - - icon-uni0A8B
+    - 0a8b
+  - - icon-uni0A8C
+    - 0a8c
+  - - icon-uni0A8D
+    - 0a8d
+  - - icon-uni0A8F
+    - 0a8f
+  - - icon-uni0A90
+    - 0a90
+  - - icon-uni0A91
+    - 0a91
+  - - icon-uni0A93
+    - 0a93
+  - - icon-uni0A94
+    - 0a94
+  - - icon-uni0A95
+    - 0a95
+  - - icon-uni0A96
+    - 0a96
+  - - icon-uni0A97
+    - 0a97
+  - - icon-uni0A98
+    - 0a98
+  - - icon-uni0A99
+    - 0a99
+  - - icon-uni0A9A
+    - 0a9a
+  - - icon-uni0A9B
+    - 0a9b
+  - - icon-uni0A9C
+    - 0a9c
+  - - icon-uni0A9D
+    - 0a9d
+  - - icon-uni0A9E
+    - 0a9e
+  - - icon-uni0A9F
+    - 0a9f
+  - - icon-uni0AA0
+    - 0aa0
+  - - icon-uni0AA1
+    - 0aa1
+  - - icon-uni0AA2
+    - 0aa2
+  - - icon-uni0AA3
+    - 0aa3
+  - - icon-uni0AA4
+    - 0aa4
+  - - icon-uni0AA5
+    - 0aa5
+  - - icon-uni0AA6
+    - 0aa6
+  - - icon-uni0AA7
+    - 0aa7
+  - - icon-uni0AA8
+    - 0aa8
+  - - icon-uni0AAA
+    - 0aaa
+  - - icon-uni0AAB
+    - 0aab
+  - - icon-uni0AAC
+    - 0aac
+  - - icon-uni0AAD
+    - 0aad
+  - - icon-uni0AAE
+    - 0aae
+  - - icon-uni0AAF
+    - 0aaf
+  - - icon-uni0AB0
+    - 0ab0
+  - - icon-uni0AB2
+    - 0ab2
+  - - icon-uni0AB3
+    - 0ab3
+  - - icon-uni0AB5
+    - 0ab5
+  - - icon-uni0AB6
+    - 0ab6
+  - - icon-uni0AB7
+    - 0ab7
+  - - icon-uni0AB8
+    - 0ab8
+  - - icon-uni0AB9
+    - 0ab9
+  - - icon-uni0ABC
+    - 0abc
+  - - icon-uni0ABD
+    - 0abd
+  - - icon-uni0ABE
+    - 0abe
+  - - icon-uni0ABF
+    - 0abf
+  - - icon-uni0AC0
+    - 0ac0
+  - - icon-uni0AC1
+    - 0ac1
+  - - icon-uni0AC2
+    - 0ac2
+  - - icon-uni0AC3
+    - 0ac3
+  - - icon-uni0AC4
+    - 0ac4
+  - - icon-uni0AC5
+    - 0ac5
+  - - icon-uni0AC7
+    - 0ac7
+  - - icon-uni0AC8
+    - 0ac8
+  - - icon-uni0AC9
+    - 0ac9
+  - - icon-uni0ACB
+    - 0acb
+  - - icon-uni0ACC
+    - 0acc
+  - - icon-uni0ACD
+    - 0acd
+  - - icon-uni0AD0
+    - 0ad0
+  - - icon-uni0AE0
+    - 0ae0
+  - - icon-uni0AE1
+    - 0ae1
+  - - icon-uni0AE2
+    - 0ae2
+  - - icon-uni0AE3
+    - 0ae3
+  - - icon-uni0AE6
+    - 0ae6
+  - - icon-uni0AE7
+    - 0ae7
+  - - icon-uni0AE8
+    - 0ae8
+  - - icon-uni0AE9
+    - 0ae9
+  - - icon-uni0AEA
+    - 0aea
+  - - icon-uni0AEB
+    - 0aeb
+  - - icon-uni0AEC
+    - 0aec
+  - - icon-uni0AED
+    - 0aed
+  - - icon-uni0AEE
+    - 0aee
+  - - icon-uni0AEF
+    - 0aef
+  - - icon-uni0AF1
+    - 0af1
+  - - icon-uni0B01
+    - '0b01'
+  - - icon-uni0B02
+    - 0b02
+  - - icon-uni0B03
+    - 0b03
+  - - icon-uni0B05
+    - 0b05
+  - - icon-uni0B06
+    - 0b06
+  - - icon-uni0B07
+    - 0b07
+  - - icon-uni0B08
+    - 0b08
+  - - icon-uni0B09
+    - 0b09
+  - - icon-uni0B0A
+    - 0b0a
+  - - icon-uni0B0B
+    - 0b0b
+  - - icon-uni0B0C
+    - 0b0c
+  - - icon-uni0B0F
+    - 0b0f
+  - - icon-uni0B10
+    - '0b10'
+  - - icon-uni0B13
+    - 0b13
+  - - icon-uni0B14
+    - 0b14
+  - - icon-uni0B15
+    - 0b15
+  - - icon-uni0B16
+    - 0b16
+  - - icon-uni0B17
+    - 0b17
+  - - icon-uni0B18
+    - 0b18
+  - - icon-uni0B19
+    - 0b19
+  - - icon-uni0B1A
+    - 0b1a
+  - - icon-uni0B1B
+    - 0b1b
+  - - icon-uni0B1C
+    - 0b1c
+  - - icon-uni0B1D
+    - 0b1d
+  - - icon-uni0B1E
+    - 0b1e
+  - - icon-uni0B1F
+    - 0b1f
+  - - icon-uni0B20
+    - 0b20
+  - - icon-uni0B21
+    - 0b21
+  - - icon-uni0B22
+    - 0b22
+  - - icon-uni0B23
+    - 0b23
+  - - icon-uni0B24
+    - 0b24
+  - - icon-uni0B25
+    - 0b25
+  - - icon-uni0B26
+    - 0b26
+  - - icon-uni0B27
+    - 0b27
+  - - icon-uni0B28
+    - 0b28
+  - - icon-uni0B2A
+    - 0b2a
+  - - icon-uni0B2B
+    - 0b2b
+  - - icon-uni0B2C
+    - 0b2c
+  - - icon-uni0B2D
+    - 0b2d
+  - - icon-uni0B2E
+    - 0b2e
+  - - icon-uni0B2F
+    - 0b2f
+  - - icon-uni0B30
+    - 0b30
+  - - icon-uni0B32
+    - 0b32
+  - - icon-uni0B33
+    - 0b33
+  - - icon-uni0B35
+    - 0b35
+  - - icon-uni0B36
+    - 0b36
+  - - icon-uni0B37
+    - 0b37
+  - - icon-uni0B38
+    - 0b38
+  - - icon-uni0B39
+    - 0b39
+  - - icon-uni0B3C
+    - 0b3c
+  - - icon-uni0B3D
+    - 0b3d
+  - - icon-uni0B3E
+    - 0b3e
+  - - icon-uni0B3F
+    - 0b3f
+  - - icon-uni0B40
+    - 0b40
+  - - icon-uni0B41
+    - 0b41
+  - - icon-uni0B42
+    - 0b42
+  - - icon-uni0B43
+    - 0b43
+  - - icon-uni0B47
+    - 0b47
+  - - icon-uni0B48
+    - 0b48
+  - - icon-uni0B4B
+    - 0b4b
+  - - icon-uni0B4C
+    - 0b4c
+  - - icon-uni0B4D
+    - 0b4d
+  - - icon-uni0B56
+    - 0b56
+  - - icon-uni0B57
+    - 0b57
+  - - icon-uni0B5C
+    - 0b5c
+  - - icon-uni0B5D
+    - 0b5d
+  - - icon-uni0B5F
+    - 0b5f
+  - - icon-uni0B60
+    - 0b60
+  - - icon-uni0B61
+    - 0b61
+  - - icon-uni0B66
+    - 0b66
+  - - icon-uni0B67
+    - 0b67
+  - - icon-uni0B68
+    - 0b68
+  - - icon-uni0B69
+    - 0b69
+  - - icon-uni0B6A
+    - 0b6a
+  - - icon-uni0B6B
+    - 0b6b
+  - - icon-uni0B6C
+    - 0b6c
+  - - icon-uni0B6D
+    - 0b6d
+  - - icon-uni0B6E
+    - 0b6e
+  - - icon-uni0B6F
+    - 0b6f
+  - - icon-uni0B70
+    - 0b70
+  - - icon-uni0B71
+    - 0b71
+  - - icon-lastresorttamil
+    - 0bfa
+  - - icon-uni0C01
+    - 0c01
+  - - icon-uni0C02
+    - 0c02
+  - - icon-uni0C03
+    - 0c03
+  - - icon-uni0C05
+    - 0c05
+  - - icon-uni0C06
+    - 0c06
+  - - icon-uni0C07
+    - 0c07
+  - - icon-uni0C08
+    - 0c08
+  - - icon-uni0C09
+    - 0c09
+  - - icon-uni0C0A
+    - 0c0a
+  - - icon-uni0C0B
+    - 0c0b
+  - - icon-uni0C0C
+    - 0c0c
+  - - icon-uni0C0E
+    - 0c0e
+  - - icon-uni0C0F
+    - 0c0f
+  - - icon-uni0C10
+    - 0c10
+  - - icon-uni0C12
+    - 0c12
+  - - icon-uni0C13
+    - 0c13
+  - - icon-uni0C14
+    - 0c14
+  - - icon-uni0C15
+    - 0c15
+  - - icon-uni0C16
+    - 0c16
+  - - icon-uni0C17
+    - 0c17
+  - - icon-uni0C18
+    - 0c18
+  - - icon-uni0C19
+    - 0c19
+  - - icon-uni0C1A
+    - 0c1a
+  - - icon-uni0C1B
+    - 0c1b
+  - - icon-uni0C1C
+    - 0c1c
+  - - icon-uni0C1D
+    - 0c1d
+  - - icon-uni0C1E
+    - 0c1e
+  - - icon-uni0C1F
+    - 0c1f
+  - - icon-uni0C20
+    - 0c20
+  - - icon-uni0C21
+    - 0c21
+  - - icon-uni0C22
+    - 0c22
+  - - icon-uni0C23
+    - 0c23
+  - - icon-uni0C24
+    - 0c24
+  - - icon-uni0C25
+    - 0c25
+  - - icon-uni0C26
+    - 0c26
+  - - icon-uni0C27
+    - 0c27
+  - - icon-uni0C28
+    - 0c28
+  - - icon-uni0C2A
+    - 0c2a
+  - - icon-uni0C2B
+    - 0c2b
+  - - icon-uni0C2C
+    - 0c2c
+  - - icon-uni0C2D
+    - 0c2d
+  - - icon-uni0C2E
+    - 0c2e
+  - - icon-uni0C2F
+    - 0c2f
+  - - icon-uni0C30
+    - 0c30
+  - - icon-uni0C31
+    - 0c31
+  - - icon-uni0C32
+    - 0c32
+  - - icon-uni0C33
+    - 0c33
+  - - icon-uni0C35
+    - 0c35
+  - - icon-uni0C36
+    - 0c36
+  - - icon-uni0C37
+    - 0c37
+  - - icon-uni0C38
+    - 0c38
+  - - icon-uni0C39
+    - 0c39
+  - - icon-uni0C3E
+    - 0c3e
+  - - icon-uni0C3F
+    - 0c3f
+  - - icon-uni0C40
+    - 0c40
+  - - icon-uni0C41
+    - 0c41
+  - - icon-uni0C42
+    - 0c42
+  - - icon-uni0C43
+    - 0c43
+  - - icon-uni0C44
+    - 0c44
+  - - icon-uni0C46
+    - 0c46
+  - - icon-uni0C47
+    - 0c47
+  - - icon-uni0C48
+    - 0c48
+  - - icon-uni0C4A
+    - 0c4a
+  - - icon-uni0C4B
+    - 0c4b
+  - - icon-uni0C4C
+    - 0c4c
+  - - icon-uni0C4D
+    - 0c4d
+  - - icon-uni0C55
+    - 0c55
+  - - icon-uni0C56
+    - 0c56
+  - - icon-uni0C60
+    - 0c60
+  - - icon-uni0C61
+    - 0c61
+  - - icon-uni0C66
+    - 0c66
+  - - icon-uni0C67
+    - 0c67
+  - - icon-uni0C68
+    - 0c68
+  - - icon-uni0C69
+    - 0c69
+  - - icon-uni0C6A
+    - 0c6a
+  - - icon-uni0C6B
+    - 0c6b
+  - - icon-uni0C6C
+    - 0c6c
+  - - icon-uni0C6D
+    - 0c6d
+  - - icon-uni0C6E
+    - 0c6e
+  - - icon-uni0C6F
+    - 0c6f
+  - - icon-uni0C82
+    - 0c82
+  - - icon-uni0C83
+    - 0c83
+  - - icon-uni0C85
+    - 0c85
+  - - icon-uni0C86
+    - 0c86
+  - - icon-uni0C87
+    - 0c87
+  - - icon-uni0C88
+    - 0c88
+  - - icon-uni0C89
+    - 0c89
+  - - icon-uni0C8A
+    - 0c8a
+  - - icon-uni0C8B
+    - 0c8b
+  - - icon-uni0C8C
+    - 0c8c
+  - - icon-uni0C8E
+    - 0c8e
+  - - icon-uni0C8F
+    - 0c8f
+  - - icon-uni0C90
+    - 0c90
+  - - icon-uni0C92
+    - 0c92
+  - - icon-uni0C93
+    - 0c93
+  - - icon-uni0C94
+    - 0c94
+  - - icon-uni0C95
+    - 0c95
+  - - icon-uni0C96
+    - 0c96
+  - - icon-uni0C97
+    - 0c97
+  - - icon-uni0C98
+    - 0c98
+  - - icon-uni0C99
+    - 0c99
+  - - icon-uni0C9A
+    - 0c9a
+  - - icon-uni0C9B
+    - 0c9b
+  - - icon-uni0C9C
+    - 0c9c
+  - - icon-uni0C9D
+    - 0c9d
+  - - icon-uni0C9E
+    - 0c9e
+  - - icon-uni0C9F
+    - 0c9f
+  - - icon-uni0CA0
+    - 0ca0
+  - - icon-uni0CA1
+    - 0ca1
+  - - icon-uni0CA2
+    - 0ca2
+  - - icon-uni0CA3
+    - 0ca3
+  - - icon-uni0CA4
+    - 0ca4
+  - - icon-uni0CA5
+    - 0ca5
+  - - icon-uni0CA6
+    - 0ca6
+  - - icon-uni0CA7
+    - 0ca7
+  - - icon-uni0CA8
+    - 0ca8
+  - - icon-uni0CAA
+    - 0caa
+  - - icon-uni0CAB
+    - 0cab
+  - - icon-uni0CAC
+    - 0cac
+  - - icon-uni0CAD
+    - 0cad
+  - - icon-uni0CAE
+    - 0cae
+  - - icon-uni0CAF
+    - 0caf
+  - - icon-uni0CB0
+    - 0cb0
+  - - icon-uni0CB1
+    - 0cb1
+  - - icon-uni0CB2
+    - 0cb2
+  - - icon-uni0CB3
+    - 0cb3
+  - - icon-uni0CB5
+    - 0cb5
+  - - icon-uni0CB6
+    - 0cb6
+  - - icon-uni0CB7
+    - 0cb7
+  - - icon-uni0CB8
+    - 0cb8
+  - - icon-uni0CB9
+    - 0cb9
+  - - icon-uni0CBC
+    - 0cbc
+  - - icon-uni0CBD
+    - 0cbd
+  - - icon-uni0CBE
+    - 0cbe
+  - - icon-uni0CBF
+    - 0cbf
+  - - icon-uni0CC0
+    - 0cc0
+  - - icon-uni0CC1
+    - 0cc1
+  - - icon-uni0CC2
+    - 0cc2
+  - - icon-uni0CC3
+    - 0cc3
+  - - icon-uni0CC4
+    - 0cc4
+  - - icon-uni0CC6
+    - 0cc6
+  - - icon-uni0CC7
+    - 0cc7
+  - - icon-uni0CC8
+    - 0cc8
+  - - icon-uni0CCA
+    - 0cca
+  - - icon-uni0CCB
+    - 0ccb
+  - - icon-uni0CCC
+    - 0ccc
+  - - icon-uni0CCD
+    - 0ccd
+  - - icon-uni0CD5
+    - 0cd5
+  - - icon-uni0CD6
+    - 0cd6
+  - - icon-uni0CDE
+    - 0cde
+  - - icon-uni0CE0
+    - 0ce0
+  - - icon-uni0CE1
+    - 0ce1
+  - - icon-uni0CE2
+    - 0ce2
+  - - icon-uni0CE3
+    - 0ce3
+  - - icon-uni0CE6
+    - 0ce6
+  - - icon-uni0CE7
+    - 0ce7
+  - - icon-uni0CE8
+    - 0ce8
+  - - icon-uni0CE9
+    - 0ce9
+  - - icon-uni0CEA
+    - 0cea
+  - - icon-uni0CEB
+    - 0ceb
+  - - icon-uni0CEC
+    - 0cec
+  - - icon-uni0CED
+    - 0ced
+  - - icon-uni0CEE
+    - 0cee
+  - - icon-uni0CEF
+    - 0cef
+  - - icon-uni0CF1
+    - 0cf1
+  - - icon-uni0CF2
+    - 0cf2
+  - - icon-lastresortmalayalam
+    - 0d6f
+  - - icon-lastresortsinhala
+    - 0df4
+  - - icon-lastresortthai
+    - 0e5b
+  - - icon-lastresortlao
+    - 0edd
+  - - icon-tibetan_15
+    - 0fa8
+  - - icon-tibetan_16
+    - 0fa9
+  - - icon-tibetan_17
+    - 0faa
+  - - icon-tibetan_18
+    - 0fab
+  - - icon-tibetan_19
+    - 0fac
+  - - icon-tibetan_20
+    - 0fad
+  - - icon-tibetan_21
+    - 0fae
+  - - icon-tibetan_22
+    - 0faf
+  - - icon-tibetan_23
+    - 0fb0
+  - - icon-tibetan_24
+    - 0fb1
+  - - icon-tibetan_25
+    - 0fb2
+  - - icon-tibetan_26
+    - 0fb3
+  - - icon-tibetan_27
+    - 0fb4
+  - - icon-tibetan_28
+    - 0fb5
+  - - icon-tibetan_29
+    - 0fb6
+  - - icon-tibetan_30
+    - 0fb7
+  - - icon-tibetan_31
+    - 0fb8
+  - - icon-tibetan_3
+    - 0fc1
+  - - icon-tibetan_4
+    - 0fc2
+  - - icon-tibetan_5
+    - 0fc3
+  - - icon-tibetan_6
+    - 0fc4
+  - - icon-tibetan_7
+    - 0fc5
+  - - icon-tibetan_8
+    - 0fc6
+  - - icon-tibetan_9
+    - 0fc7
+  - - icon-tibetan_10
+    - 0fc8
+  - - icon-tibetan_11
+    - 0fc9
+  - - icon-tibetan_12
+    - 0fca
+  - - icon-tibetan_13
+    - 0fcb
+  - - icon-tibetan_14
+    - 0fcc
+  - - icon-tibetan_0
+    - 0fcf
+  - - icon-tibetan_1
+    - 0fd0
+  - - icon-tibetan_2
+    - 0fd1
+  - - icon-lastresortmyanmar
+    - '1059'
+  - - icon-lastresortgeorgian
+    - 10fc
+  - - icon-lastresorthanguljamo
+    - 11f9
+  - - icon-lastresortethiopic
+    - 137c
+  - - icon-lastresortethiopicsup
+    - '1399'
+  - - icon-lastresortcherokee
+    - 13f4
+  - - icon-lastresortcanadiansyllabics
+    - '1676'
+  - - icon-lastresortogham
+    - 169c
+  - - icon-lastresortrunic
+    - 16f0
+  - - icon-lastresorttagalog
+    - '1714'
+  - - icon-lastresorthanunoo
+    - '1736'
+  - - icon-lastresortbuhid
+    - '1753'
+  - - icon-lastresorttagbanwa
+    - '1773'
+  - - icon-lastresortkhmer
+    - 17f9
+  - - icon-lastresortmongolian
+    - 18a9
+  - - icon-lastresortlimbu
+    - 194f
+  - - icon-lastresorttaile
+    - '1974'
+  - - icon-lastresortnewtailue
+    - 19df
+  - - icon-lastresortkhmersymbols
+    - 19ff
+  - - icon-lastresortbuginese
+    - 1a1f
+  - - icon-lastresortbalinese
+    - 1b7c
+  - - icon-lastresortphoneticext
+    - 1d7f
+  - - icon-lastresortphoneticextsup
+    - 1dbf
+  - - icon-lastresortcombdiacriticssup
+    - 1dff
+  - - icon-lastresortlatinextended
+    - 1ef9
+  - - icon-lastresortgreekextended
+    - 1ffe
+  - - icon-lastresortgeneralpunctuation
+    - 206f
+  - - icon-lastresortsupersubscripts
+    - '2094'
+  - - icon-lastresortcurrency
+    - 20b5
+  - - icon-lastresortcombiningsymbols
+    - 20ef
+  - - icon-lastresortletterlikesymbols
+    - 214e
+  - - icon-lastresortnumberforms
+    - '2184'
+  - - icon-lastresortarrows
+    - 21ff
+  - - icon-lastresortmathoperators
+    - 22ff
+  - - icon-lastresortmisctechnical
+    - 23e7
+  - - icon-lastresortcontrolpictures
+    - '2426'
+  - - icon-lastresortopticalrecognition
+    - 244a
+  - - icon-lastresortenclosedalphanum
+    - 24ff
+  - - icon-lastresortboxdrawing
+    - 257f
+  - - icon-lastresortblockelements
+    - 259f
+  - - icon-lastresortgeometricshapes
+    - 25ff
+  - - icon-lastresortmiscsymbols
+    - 26b2
+  - - icon-lastresortdingbats
+    - 27be
+  - - icon-lastresortmiscmathsymbolsa
+    - 27eb
+  - - icon-lastresortarrowssupplementa
+    - 27ff
+  - - icon-lastresortbraillesymbols
+    - 28ff
+  - - icon-lastresortarrowssupplementb
+    - 297f
+  - - icon-lastresortmiscmathsymbolsb
+    - 29ff
+  - - icon-lastresortmathoperatorssup
+    - 2aff
+  - - icon-lastresortmiscsymbolsarrows
+    - 2b23
+  - - icon-lastresortglagolitic
+    - 2c5e
+  - - icon-lastresortlatinc
+    - 2c77
+  - - icon-lastresortcoptic
+    - 2cff
+  - - icon-lastresortgeorgiansup
+    - 2d25
+  - - icon-lastresorttifinagh
+    - 2d6f
+  - - icon-lastresortethiopicextended
+    - 2dde
+  - - icon-lastresortpunctuationsup
+    - 2e1d
+  - - icon-lastresortcjkradicalssup
+    - 2ef3
+  - - icon-lastresortkangxiradicals
+    - 2fd5
+  - - icon-lastresortideographicdescript
+    - 2ffb
+  - - icon-lastresortcjksymbolspunct
+    - 303f
+  - - icon-lastresorthiragana
+    - 309f
+  - - icon-lastresortkatakana
+    - 30ff
+  - - icon-lastresortbopomofo
+    - 312c
+  - - icon-lastresortcompatibilityjamo
+    - 318e
+  - - icon-lastresortkanbun
+    - 319f
+  - - icon-lastresortbopomofoextended
+    - 31b7
+  - - icon-lastresortcjkstrokes
+    - 31cf
+  - - icon-lastresortkatakanaextended
+    - 31ff
+  - - icon-lastresortenclosedcjk
+    - 32fe
+  - - icon-lastresortcjkcompatibility
+    - 33ff
+  - - icon-lastresortcjkideographexta
+    - 4db5
+  - - icon-lastresortyijinghexagram
+    - 4dff
+  - - icon-lastresortcjkideograph
+    - 9fbb
+  - - icon-lastresortyi
+    - a48c
+  - - icon-lastresortyiradicals
+    - a4c6
+  - - icon-lastresortmodifiertones
+    - a71a
+  - - icon-lastresortlatind
+    - a721
+  - - icon-lastresortsylotinagri
+    - a82b
+  - - icon-lastresortphagspa
+    - a877
+  - - icon-lastresorthangulsyllables
+    - d7a3
+  - - icon-lastresorthighsurrogate
+    - db7f
+  - - icon-lastresorthighprivatesurrogate
+    - dbff
+  - - icon-lastresortlowsurrogate
+    - dfff
+  - - icon-lastresortprivateuse
+    - f8ff
+  - - icon-lastresortcjkideographcompat
+    - fad9
+  - - icon-lastresortalphapresentation
+    - fb4f
+  - - icon-lastresortarabicpresentationa
+    - fdfd
+  - - icon-lastresortvariationselectors
+    - fe0f
+  - - icon-lastresortverticalforms
+    - fe19
+  - - icon-lastresortcombininghalfforms
+    - fe23
+  - - icon-lastresortcjkcompatibilityform
+    - fe4f
+  - - icon-lastresortsmallforms
+    - fe6b
+  - - icon-lastresortarabicpresentationb
+    - feff
+  - - icon-lastresorthalffullwidthforms
+    - ffee
+  - - icon-lastresortspecials
+    - fffd
+  - - icon-lastresortlinearbsyllabary
+    - 1005d
+  - - icon-lastresortlinearbideograms
+    - 100fa
+  - - icon-lastresortaegeannumbers
+    - 1013f
+  - - icon-lastresortgreeknumbers
+    - 1018a
+  - - icon-lastresortolditalic
+    - '10323'
+  - - icon-lastresortgothic
+    - 1034a
+  - - icon-lastresortugaritic
+    - 1039f
+  - - icon-lastresortoldpersian
+    - 103d5
+  - - icon-lastresortdeseret
+    - 1044f
+  - - icon-lastresortshavian
+    - 1047f
+  - - icon-lastresortosmanya
+    - 104a9
+  - - icon-lastresortcypriot
+    - 1083f
+  - - icon-lastresortphoenician
+    - 1091f
+  - - icon-lastresortkharoshthi
+    - 10a58
+  - - icon-lastresortcuneiform
+    - 1236e
+  - - icon-lastresortcuneiformnumbers
+    - '12473'
+  - - icon-lastresortbyzantinemusic
+    - 1d0f5
+  - - icon-lastresortmusicalsymbols
+    - 1d1dd
+  - - icon-lastresortgreekmusic
+    - 1d245
+  - - icon-lastresorttaixuanjing
+    - 1d356
+  - - icon-lastresortcountingrods
+    - 1d371
+  - - icon-lastresortalphamathsymbols
+    - 1d7ff
+  - - icon-lastresortnotdefplaneone
+    - 1fffd
+  - - icon-lastresortnotaunicode1
+    - 1ffff
+  - - icon-lastresortcjkideographextendb
+    - 2a6d6
+  - - icon-lastresortcjkideocompatsup
+    - 2fa1d
+  - - icon-lastresortnotdefplanetwo
+    - 2fffd
+  - - icon-lastresortnotaunicode2
+    - 2ffff
+  - - icon-lastresortnotaunicode3
+    - 3ffff
+  - - icon-lastresortnotaunicode
+    - dffff
+  - - icon-lastresorttags
+    - e007f
+  - - icon-lastresortvariationselectorsa
+    - e01ef
+  - - icon-lastresortnotdefplanefourteen
+    - efffd
+  - - icon-lastresortnotaunicodee
+    - effff
+  - - icon-lastresortprivateplane15
+    - ffffd
+  - - icon-lastresortnotaunicode15
+    - fffff
+  - - icon-lastresortprivateplane16
+    - 10fffd
+  - - icon-lastresortnotaunicode16
+    - 10ffff
 ---
 
