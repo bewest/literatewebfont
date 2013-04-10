@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-4-9: Created.
+-->
+<svg>
+<metadata>
+Created by FontForge 20110222 at Tue Apr  9 13:43:35 2013
+ By Ben West,,,
+Created by Ben West,,, with FontForge 2.0 (http://fontforge.sf.net)
+</metadata>
+<defs>
+<font id="Musica" horiz-adv-x="-2147483648" >
+  <font-face 
+    font-family="Literate Web"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="2 0 6 3 0 0 0 0 0 0"
+    ascent="800"
+    descent="-200"
+    bbox="0 0 0 0"
+    underline-thickness="50"
+    underline-position="-100"
+  />
+    <missing-glyph />
+  </font>
+</defs></svg>

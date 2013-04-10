@@ -21,13 +21,13 @@ CONFIG = {
 ENV['PATH'] = [ENV['PATH'], './bin'].join(':')
 
 def export_glyphs(font, prefix=CONFIG['glyphs'])
-  glyphs = `glyphs.py -p #{prefix} #{font}`.collect do |line|
+  glyphs = `glyphs.py -p #{prefix} #{font}`.split("\n").collect do |line|
     line.split
   end
 end
 
 def get_glyphs(font)
-  glyphs = `glyphs.py -n #{font}`.collect do |line|
+  glyphs = `glyphs.py -n #{font}`.split("\n").collect do |line|
     line.split
   end
 end
@@ -67,10 +67,11 @@ desc "Begin a new post in #{CONFIG['posts']}"
 task :post, [:title, :date, :overwrite] do |t, args|
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
   args.with_defaults(:title => ENV["title"] || "new-post",
-                     :date  => ENV["date"]  || "today",
+                     :date  => ENV["date"]  || Time.now,
                      :overwrite => ENV["overwrite"])
   title = args.title
-  date  = args.date
+  date  = args.date.to_s
+  puts date
   slug  = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
   begin
     date = Time.parse(date).strftime('%Y-%m-%d')
@@ -171,7 +172,7 @@ namespace :font do
   task :build, [:theme] do |t, args|
     args.with_defaults(:theme=> ENV['theme'] || CONFIG['font_theme'])
     output = `glyphs2webfont.sh #{args.theme}`
-    lines = output.collect
+    lines = output.split("\n").compact
     puts "Built font using #{lines.length - 1} glyphs"
     puts "#{lines[0]}"
   end
@@ -211,7 +212,7 @@ namespace :font do
     args.with_defaults(:theme=> ENV['theme'] || CONFIG['font_theme'])
     fontname = "fonts/#{args.theme}.ttf"
     Rake::Task["font:build"].invoke(args.theme)
-    Rake::Task["post"].invoke(args.theme, 'today', 'f')
+    Rake::Task["post"].invoke(args.theme, Time.now, 'f')
     search = "#{CONFIG['posts']}/*#{args.theme}.#{CONFIG['post_ext']}"
     post = FileList[search].sort.pop
     Rake::Task["font:demo"].invoke(fontname, post)
